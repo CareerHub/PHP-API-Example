@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"path": "./"
+		}
+	],
+
+	"settings": {
+		"xdebug": {
+			"path_mapping": {
+				"R:/Development/GitHub/PHP-API-Example/CakePHP/": "R:/Development/GitHub/PHP-API-Example/CakePHP/"
+		    },
+			"url": "http://localhost:8282/php-api-example/"
+		},
+
+		"tab_size": "4",
+		"translate_tabs_to_spaces": "true"
+	}
+}

@@ -1,0 +1,753 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"request",
+				"requestToken"
+			],
+			[
+				"Write-",
+				"Write-Error"
+			],
+			[
+				"Write",
+				"Write-Host"
+			],
+			[
+				"script",
+				"scriptPath"
+			],
+			[
+				"temp",
+				"tempMigrationPath"
+			],
+			[
+				"For",
+				"ForceAcceptIDPCertificate"
+			],
+			[
+				"LDAP",
+				"LDAPEnabled"
+			],
+			[
+				"migrationS",
+				"migrationScript"
+			],
+			[
+				"Mig",
+				"migrationScript"
+			],
+			[
+				"createServer",
+				"http.createServer(requestListener);"
+			],
+			[
+				"post",
+				"post_path"
+			],
+			[
+				"comme",
+				"comment"
+			],
+			[
+				"da",
+				"dasblog"
+			],
+			[
+				"func",
+				"func2"
+			],
+			[
+				"arg",
+				"arg3"
+			],
+			[
+				"loc",
+				"location_options"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/R/Development/GitHub/.NET-CareerHub-API-Client/Client/Client.csproj",
+			"settings":
+			{
+				"buffer_size": 12020,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/R/Development/GitHub/.NET-CareerHub-API-Client/Test/Test.csproj",
+			"settings":
+			{
+				"buffer_size": 8286,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?xml version=\"1.0\" encoding=\"utf-8\"?><test-results name=\"D:\\Build\\Go Agent\\pipelines\\Dotnet_API_Client\\Project\\Test\\bin\\Release\\CareerHub.Client.Tests.dll\" date=\"2014-06-10\" time=\"15:08:44\" total=\"12\" failures=\"0\" not-run=\"0\"><test-suite name=\"D:\\Build\\Go Agent\\pipelines\\Dotnet_API_Client\\Project\\Test\\bin\\Release\\CareerHub.Client.Tests.dll\" success=\"True\" time=\"0.985\"><results><test-suite name=\"CareerHub.Client.Tests.API.Authorization.AuthorizationApiFacts\" success=\"True\" time=\"0.761\"><results><test-case name=\"CareerHub.Client.Tests.API.Authorization.AuthorizationApiFacts.Get_TokenInfo_Url\" executed=\"True\" success=\"True\" time=\"0.759\" /><test-case name=\"CareerHub.Client.Tests.API.Authorization.AuthorizationApiFacts.Get_TokenInfo_Url_Throws_Null_Scopes\" executed=\"True\" success=\"True\" time=\"0.002\" /><test-case name=\"CareerHub.Client.Tests.API.Authorization.AuthorizationApiFacts.Get_TokenInfo_Url_Throws_Null_Access_Token\" executed=\"True\" success=\"True\" time=\"0.000\" /></results></test-suite><test-suite name=\"CareerHub.Client.Tests.API.Students.FactoryFacts\" success=\"True\" time=\"0.214\"><results><test-case name=\"CareerHub.Client.Tests.API.Students.FactoryFacts.GetAppointments_Works\" executed=\"True\" success=\"True\" time=\"0.205\" /><test-case name=\"CareerHub.Client.Tests.API.Students.FactoryFacts.GetAppointments_Throws_If_Component_Not_Enabled\" executed=\"True\" success=\"True\" time=\"0.009\" /></results></test-suite><test-suite name=\"CareerHub.Client.Tests.Framework.UrlUtilityFacts\" success=\"True\" time=\"0.010\"><results><test-case name=\"CareerHub.Client.Tests.Framework.UrlUtilityFacts.Add_Null_Param\" executed=\"True\" success=\"True\" time=\"0.001\" /><test-case name=\"CareerHub.Client.Tests.Framework.UrlUtilityFacts.Add_Paging_Params\" executed=\"True\" success=\"True\" time=\"0.001\" /><test-case name=\"CareerHub.Client.Tests.Framework.UrlUtilityFacts.Add_Param_To_Resource_With_Query\" executed=\"True\" success=\"True\" time=\"0.000\" /><test-case name=\"CareerHub.Client.Tests.Framework.UrlUtilityFacts.Add_Paging_Params_No_Skip\" executed=\"True\" success=\"True\" time=\"0.000\" /><test-case name=\"CareerHub.Client.Tests.Framework.UrlUtilityFacts.Add_Paging_Params_No_Take\" executed=\"True\" success=\"True\" time=\"0.000\" /><test-case name=\"CareerHub.Client.Tests.Framework.UrlUtilityFacts.Add_Param_To_Empty_Resource\" executed=\"True\" success=\"True\" time=\"0.008\" /><test-case name=\"CareerHub.Client.Tests.Framework.UrlUtilityFacts.Add_Param_With_Int\" executed=\"True\" success=\"True\" time=\"0.000\" /></results></test-suite></results></test-suite></test-results>",
+			"settings":
+			{
+				"buffer_size": 2548,
+				"line_ending": "Windows",
+				"name": "<?xml version=\"1.0\" encoding=\"utf-8\"?><test-result"
+			}
+		},
+		{
+			"file": "/R/Development/GitHub/.NET-CareerHub-API-Client/CareerHub API Client.sln",
+			"settings":
+			{
+				"buffer_size": 2054,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"xdeb",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package contro",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"form",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package controll",
+				"Package Control: List Packages"
+			],
+			[
+				"node",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 230.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/R/Development/GitHub/.NET-CareerHub-API-Client/Client/Client.csproj.user",
+		"//192.168.1.10/web/careerhub/update/Resources/Apps/Angliss/Working/Update.sql",
+		"/C/Users/John/Desktop/Angliss/3.0.76339/CareerHub Update 3.0.76339/Resources/Update.sql",
+		"/R/Downloads/BuildCourseJobTrend_v3.sql",
+		"//192.168.1.10/web/careerhub/update/Resources/DataCheckpoints/1322/sql.txt",
+		"/R/Development/CareerHub/CareerHub/.hg/hgrc",
+		"/R/Development/CareerHub/CareerHub/Web/Resources/default.key",
+		"//192.168.1.10/web/careerhub/dev/wsi/Resources/default.key",
+		"//192.168.1.10/web/careerhub/dev/acu/Resources/default.key",
+		"/R/Downloads/download",
+		"/R/Downloads/UAT-idp-metadata4SP.xml",
+		"/R/Downloads/PROD-idp-metadata4SP.xml",
+		"/R/Development/GitHub/PHP-API-Example/CakePHP/app/Controller/SecureController.php",
+		"/R/Development/GitHub/PHP-API-Example/CakePHP/app/Vendor/ohmy/Auth2/Auth2Flow.php",
+		"/R/Development/GitHub/PHP-API-Example/CakePHP/app/Model/OAuthConfig.php",
+		"/R/Development/GitHub/PHP-API-Example/php-api-example.sublime-project",
+		"/R/Programs/wamp/alias/php-api-example.conf",
+		"/R/Development/GitHub/PHP-API-Example/CakePHP/app/webroot/index.php",
+		"/R/Development/GitHub/PHP-API-Example/CakePHP/app/Config/bootstrap.php",
+		"/R/Development/GitHub/PHP-API-Example/CakePHP/app/tmp/logs/error.log",
+		"/R/Development/GitHub/PHP-API-Example/CakePHP/app/View/Secure/students.ctp",
+		"/C/Users/John/AppData/Roaming/Sublime Text 2/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/R/Development/GitHub/PHP-API-Example/CakePHP/app/Model/Datasource/OAuthClientCredentials.php",
+		"/C/Users/John/AppData/Roaming/Sublime Text 2/Packages/User/Xdebug.sublime-settings",
+		"/R/Development/GitHub/PHP-API-Example/.git/config",
+		"/R/Development/GitHub/.NET-CareerHub-API-Client/.git/config",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/Vendor/OAuth/OAuth.php",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/Controller/ExperiencesController.php",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/View/Experiences/trusted_index.ctp",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/View/Experiences/students_index.ctp",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/Controller/AppController.php",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/View/Layouts/default.ctp",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/View/Layouts/public.ctp",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/View/Layouts/trusted.ctp",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/Config/routes.php",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/Controller/HomeController.php",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/View/Home/index.ctp",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/Config/bootstrap.php",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/Config/core.php",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/Controller/Students/ExperiencesController.php",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/Controller/PagesController.php",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/webroot/.htaccess",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/.htaccess",
+		"/R/Development/GitHub/PHP-API-Example/Web/.htaccess",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/Config/database.php.default",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/View/Experiences/index.ctp",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/Config/database.php",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/Config/email.php",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/Model/ExperienceModel.php",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/View/Pages/home.ctp",
+		"/R/Development/GitHub/PHP-API-Example/Web/app/webroot/index.php",
+		"/R/Programs/wamp/bin/apache/apache2.4.9/conf/extra/httpd-vhosts.conf",
+		"/R/Programs/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
+		"/R/Programs/wamp/bin/apache/apache2.4.9/conf/wampserver.conf",
+		"/R/Programs/wamp/alias/phpmyadmin.conf",
+		"/R/Programs/wamp/apps/phpsysinfo3.1.12/.htaccess",
+		"/R/Programs/wamp/wampmanager.conf",
+		"/R/Programs/wamp/wampmanager.tpl",
+		"/R/Programs/wamp/wampmanager.ini",
+		"/R/Programs/wamp/alias/webgrind.conf",
+		"/R/Programs/wamp/alias/phpsysinfo.conf",
+		"/R/Programs/wamp/alias/sqlbuddy.conf",
+		"/R/Programs/wamp/bin/apache/apache2.4.9/wampserver.conf",
+		"/R/Programs/Apache Software Foundation/Tomcat/conf/server.xml",
+		"/R/Programs/wamp/vhosts/none",
+		"/R/Programs/wamp/logs/log_dir",
+		"/R/Development/GitHub/PHP-API-Example/Web/auth.php",
+		"/R/Dropbox/CareerHub Docs/Otago Security Report - 21-May-2014/Login Failures.csv",
+		"/R/Downloads/abintegro.html",
+		"/R/Development/GitHub/ASP.NET-API-Example/.git/config",
+		"/R/Development/GitHub/.NET-CareerHub-API-Client/Client/Client.csproj",
+		"/R/Downloads/decrypt.linq",
+		"/R/Downloads/CareerHub.Client.API.nuspec",
+		"/R/Development/GitHub/ASP.NET-API-Example/packages/Microsoft.AspNet.WebApi.Client.5.0.0/Microsoft.AspNet.WebApi.Client.5.0.0.nuspec",
+		"/R/Development/GitHub/.NET-CareerHub-API-Client/packages/Microsoft.Net.Http.2.2.22/Microsoft.Net.Http.2.2.22.nupkg",
+		"/R/Development/GitHub/.NET-CareerHub-API-Client/.git/config.backup",
+		"/R/Development/GitHub/.NET-CareerHub-API-Client/Build/run-tests.bat",
+		"/C/Users/John/.ssh/github_rsa",
+		"/C/Users/John/.ssh/github_rsa.pub",
+		"/R/Development/GitHub/Spoon-Knife/.git/config",
+		"/R/Development/GitHub/.NET-CareerHub-API-Client/Client/Client.nuspec",
+		"/R/Development/GitHub/.NET-CareerHub-API-Client/Client/bin/Debug/CareerHub.Client.dll.nuspec",
+		"/R/Development/GitHub/.NET-CareerHub-API-Client/CareerHub API Client.sln",
+		"/R/Programs/Shibboleth/IdP/conf/handler.xml",
+		"/C/Users/John/Desktop/sites.xml",
+		"/R/Development/CareerHub/CareerHub/Scripts/burst/db.ps1",
+		"/R/Development/CareerHub/CareerHub/Scripts/burst/burst_backin.ps1",
+		"//192.168.1.10/web/careerhub/dev/jcu/Resources/Controls/Navigation.ascx",
+		"//192.168.1.10/web/careerhub/dev/jcu/Resources/Templates/Standard.master",
+		"//192.168.1.10/web/careerhub/dev/jcu/Resources/Controls/EntityLists.ascx",
+		"/R/Development/CareerHub/ICalendar/ICalendar/ICalendar.csproj",
+		"//192.168.1.10/web/careerhub/dev/csu/Resources/SamlConfig.xml",
+		"//192.168.1.10/web/visualeyes/download/prod_openam_certificate_2014.cer",
+		"//192.168.1.10/web/careerhub/dev/ecu/Resources/SamlConfig.xml",
+		"/R/Downloads/PROD OpenAM Certificate 2014/PROD OpenAM Certificate 2014/prod_openam_certificate_2014.cer",
+		"//192.168.1.10/web/careerhub/dev/wsi/Resources/SamlConfig.xml",
+		"//192.168.1.10/web/careerhub/dev/si/Resources/SamlConfig.xml",
+		"//192.168.1.10/web/careerhub/dev/si/Resources/SiteConfig.xml",
+		"//192.168.1.10/web/careerhub/dev/swsi/Resources/SamlConfig.xml",
+		"//192.168.1.10/web/careerhub/dev/newengland/Resources/SamlConfig.xml",
+		"//192.168.1.10/web/careerhub/dev/illawarra/Resources/SamlConfig.xml",
+		"//192.168.1.10/web/careerhub/dev/hunter/Resources/SamlConfig.xml",
+		"//192.168.1.10/web/careerhub/dev/nsi/Resources/SamlConfig.xml",
+		"/R/Documents/exeter-fed-metadata.xml",
+		"/C/inetpub/mailroot/pickup/04efa03b-fd3e-4280-bff9-1ee79bc53a56.eml",
+		"/R/Development/CareerHub/categories/Scripts/burst/burst_show.ps1",
+		"//192.168.1.10/web/careerhub/update/Resources/Apps/Warwick/Working/Update.sql",
+		"//192.168.1.10/web/careerhub/update/Resources/Apps/Chisholm/Working/Update.sql",
+		"//192.168.1.10/web/careerhub/update/Resources/Apps/Demo/Working/Update.sql",
+		"//192.168.1.10/web/careerhub/dev/vuw/Resources/ResumeParameters.xml",
+		"//192.168.1.10/web/careerhub/dev/melbourne/Resources/Controls/EducationForm.ascx",
+		"//192.168.1.10/web/careerhub/dev/melbourne/Resources/Controls/DetailsForm.ascx",
+		"//192.168.1.10/web/careerhub/dev/lse/Resources/Controls/EducationForm.ascx",
+		"//192.168.1.10/web/careerhub/dev/vu/Resources/SiteConfig.xml",
+		"/C/ProgramData/Microsoft/Crypto/RSA/MachineKeys/00a7ae537c17185136322fdc8152d4b7_9215e763-893e-4019-93a7-6b075ef6882e",
+		"/R/Development/CareerHub/CareerHub/Services/Services.csproj",
+		"/R/Development/CareerHub/CareerHub/Web/Web.csproj",
+		"/R/Development/CareerHub/CareerHub/CareerHub.sln",
+		"//192.168.1.10/web/careerhub/dev/GetResourcesFile.ps1",
+		"//192.168.1.10/web/careerhub/dev/adelaide/Resources/SiteConfig.xml",
+		"//192.168.1.10/web/careerhub/dev/acu/Resources/SiteConfig.xml",
+		"/R/Programs/Apache Software Foundation/Tomcat/webapps/cas/WEB-INF/deployerConfigContext.xml",
+		"/R/Programs/Apache Software Foundation/Tomcat/webapps/cas/WEB-INF/spring-configuration/securityContext.xml",
+		"/R/Programs/Apache Software Foundation/Tomcat/webapps/cas/WEB-INF/spring-configuration/ticketGrantingTicketCookieGenerator.xml",
+		"//192.168.1.10/web/careerhub/dev/monash/Resources/SiteConfig.xml",
+		"/R/Web/Tomcat/cas-server-3.5.2/pom.xml",
+		"//192.168.1.10/web/careerhub/dev/lse/Resources/SamlConfig.xml",
+		"/R/Downloads/FederationMetadata/FederationMetadata.xml"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"R:\\Programs\\Shibboleth\\IdP\\logs",
+			"<open folders>",
+			"R:\\Development\\GitHub\\bootstrap\\less"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Client",
+			"nuget.exe",
+			"getjobstartdat",
+			"IsUnapproved",
+			"getjobstartdate",
+			"iif",
+			"IIF",
+			" \\n",
+			"\\n",
+			" \\n",
+			"::",
+			"82",
+			"localhost",
+			"80",
+			"w_testPort80",
+			"80",
+			"8282",
+			"select",
+			"\\s((?!style|class)\\w+)=\"\\w*\"",
+			"\\n",
+			"assembly",
+			"destroy",
+			"commit",
+			"login request",
+			"substring",
+			"authtype",
+			"description",
+			"dotnetopenauth",
+			"<site",
+			"generic",
+			"ldap",
+			"Invoke-DBMigrate",
+			"username_arrt",
+			"registeredserviceimpl values",
+			" '(.+)'",
+			"\\n'",
+			"\\n",
+			"local-",
+			"nameid",
+			"hibernate",
+			"validator",
+			"metadata",
+			"DECLARE\\s+@.+",
+			"DECLARE\\s+@.+\\s+=",
+			"DECLARE\\s+\\.+\\s+= ",
+			"CareerHub",
+			"\"",
+			"locale.cs",
+			"&",
+			"eduPObjClass",
+			"relying party",
+			"incoming request",
+			"shibbolethmetadata",
+			"SAML2SSOProfile",
+			"ssoprofile",
+			"ecpprofile",
+			"saml:SAML2ssoprofile",
+			"saml:sso",
+			"idpcredential",
+			"trustengine",
+			"idpcredential",
+			"defaultsigningcredentialref",
+			"MetadataTrustEngine",
+			"signaturetrustengine",
+			"credentialtrustengine",
+			"trust",
+			"signaturetrustengine",
+			"key",
+			"uta",
+			"metadata",
+			"careerhub-metadata.xml",
+			"http://localhost/students",
+			"bookings",
+			"appointments",
+			"\\sVM\\d{3}:2",
+			"assertion",
+			">",
+			"saml2:",
+			"SAML2SSOProfile",
+			"16:40:06.910 - DEBUG [edu.vt.middleware.ldap.handler.DefaultConnectionHandler:74] - Bind with the following parameters:\n16:40:06.910 - DEBUG [edu.vt.middleware.ldap.handler.DefaultConnectionHandler:75] -   authtype = simple\n16:40:06.911 - DEBUG [edu.vt.middleware.ldap.handler.DefaultConnectionHandler:76] -   dn = uid=admin,ou=system\n16:40:06.911 - DEBUG [edu.vt.middleware.ldap.handler.DefaultConnectionHandler:83] -   credential = <suppressed>\n16:40:06.963 - DEBUG [edu.vt.middleware.ldap.handler.DefaultConnectionHandler:74] - Bind with the following parameters:\n16:40:06.963 - DEBUG [edu.vt.middleware.ldap.handler.DefaultConnectionHandler:75] -   authtype = simple\n16:40:06.963 - DEBUG [edu.vt.middleware.ldap.handler.DefaultConnectionHandler:76] -   dn = uid=admin,ou=system\n16:40:06.963 - DEBUG [edu.vt.middleware.ldap.handler.DefaultConnectionHandler:83] -   credential = <suppressed>\n",
+			"Install\\..\\IdP/",
+			"session",
+			"{\n",
+			"dc=example",
+			"jre",
+			"metadata",
+			"8443",
+			"idp.careerhub.local",
+			"8443",
+			"idp.careerhub.local",
+			"<user",
+			"class=\".*\"",
+			"width=\".*\"",
+			"style=\".*\"",
+			"\"name\":\"(.+)\",",
+			"\"url\":\"(.+)\"",
+			"\"url\":\"http://www.qub.ac.uk/\"",
+			"\\},",
+			"\\{",
+			"{",
+			"\"name\":\"(.+)\",",
+			"\"url\":\"(.+)\"",
+			">.<",
+			"\\}",
+			"\\{",
+			"institution",
+			"\"url\":\"(.+)\"",
+			"\"name\":\"(.+)\",",
+			"\\{",
+			"\\},",
+			"\"\\},",
+			"\"url\"",
+			"\\{\"name",
+			"{\"name",
+			"\\{\"name",
+			"\",\"",
+			"\\},\\{",
+			"/>\n",
+			"moq",
+			"bundler",
+			"\\\\n",
+			"\\\\r",
+			"\\r",
+			"invoke-dbmigrate",
+			"\\\\r",
+			"\\\\n",
+			"\\\\r\\\\n",
+			"users"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			", ",
+			" ",
+			",\\n",
+			"\",\\n\"",
+			"\"\\n\"",
+			"username_attr",
+			"registeredserviceimpl (expression_type, allowedToProxy, anonymousAccess, description, enabled, evaluation_order, ignoreAttributes, name, required_handlers, serviceId, ssoEnabled, theme, username_arrt) values",
+			" 0, 0, '$1', 1, 0, 0, '$1', NULL, 'http*://$1/**', 1, NULL, NULL)",
+			"0, 0, $1, 1, 0, 0, $1, NULL, http*://$1/**, 1, NULL, NULL)",
+			" hello $1",
+			" hello {0}",
+			"\\n insert into registeredserviceimpl values ('ant', '",
+			"'\\n'",
+			"\"\"",
+			"\\n",
+			"",
+			">\\n",
+			"IdP/",
+			"localhost",
+			"1443",
+			"localhost",
+			"",
+			"<name>$1</name>",
+			"<url>$1</url>",
+			"</university>\\n",
+			"<university>",
+			"<name>$1</name>",
+			"<url>$1</url>",
+			">\\n<",
+			"</university>",
+			"<university>",
+			"university",
+			"<url>$1</url>",
+			"<name>$1</name>",
+			"<name>$0</name>",
+			"<institution>",
+			"</institution>",
+			"\"\\n},",
+			"\\t\"url\"",
+			"\\{\\n\\t\"name",
+			"\\{\\n\"name",
+			"\",\\n\"",
+			"\\},\\n{",
+			"\\n",
+			"",
+			"\\r\\n",
+			"careerhub",
+			"post_form.",
+			"post_form"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/R/Development/GitHub/.NET-CareerHub-API-Client/Client/Client.csproj",
+					"settings":
+					{
+						"buffer_size": 12020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9011,
+								9011
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2704.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/R/Development/GitHub/.NET-CareerHub-API-Client/Test/Test.csproj",
+					"settings":
+					{
+						"buffer_size": 8286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8142,
+								8142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2047.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 2548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2548,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?xml version=\"1.0\" encoding=\"utf-8\"?><test-result",
+							"is_xml": true,
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/R/Development/GitHub/.NET-CareerHub-API-Client/CareerHub API Client.sln",
+					"settings":
+					{
+						"buffer_size": 2054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1049,
+								1049
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.956101843723,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true
+}
