@@ -26,10 +26,32 @@ class SecureController extends AppController {
 
   }
 
+  public function students_index() {
+    // using https://github.com/sudocode/ohmy-auth
+
+      $config = $this->getConfig();
+      $oauth = Auth2::legs(3)
+
+          ->set(array(
+              'id'       => $config->clientKey,
+              'secret'   => $config->clientSecret,
+              'redirect' => 'http://localhost:8282/php-api-example/students/secure',
+              'scope' => 'JobSeeker.Profile'
+          ))
+
+          ->authorize($config->authEndpoint)
+          ->access($config->tokenEndpoint)
+          ->finally(function($data) use(&$access_token) {
+              $access_token = $data['access_token'];
+              $this->Session->write('students_access_token', $access_token);
+              $this->redirectToReturnUrl('/students/home');
+          });
+  }
+
   public function trusted_index() {
     $config = $this->getConfig();
 
-    // Send as 
+    // Send as
     $api = new RestClient(array(
       'base_url' => $config->tokenEndpoint,
       'format', 'json'
@@ -41,42 +63,20 @@ class SecureController extends AppController {
       'client_secret' => $config->clientSecret,
       'scope' => 'Trusted.Experiences'
     ));
-              
+
     $this->Session->write('trusted_access_token', $result['access_token']);
 
     //$this->set('result', $result);
-    $this->redirectToReturnUrl();
+    $this->redirectToReturnUrl('/trusted/home');
   }
 
-  public function students_index() {
-    // using https://github.com/sudocode/ohmy-auth
-
-      $config = $this->getConfig();
-      $oauth = Auth2::legs(3)
-          
-          ->set(array(
-              'id'       => $config->clientKey,
-              'secret'   => $config->clientSecret,
-              'redirect' => 'http://localhost:8282/php-api-example/students/secure',
-              'scope' => 'JobSeeker.Profile'
-          ))
-          
-          ->authorize($config->authEndpoint)
-          ->access($config->tokenEndpoint)
-          ->finally(function($data) use(&$access_token) {
-              $access_token = $data['access_token'];
-              $this->Session->write('students_access_token', $access_token);
-              redirectToReturnUrl();
-          });
-  }
-
-  private function redirectToReturnUrl() {
+  private function redirectToReturnUrl($default) {
       $returnUrl = $this->Session->read('return_url');
 
       if (!empty($returnUrl)) {
         $this->redirect($returnUrl);
       } else {
-        $this->redirect('/');
+        $this->redirect($default);
       }
   }
 

@@ -12,7 +12,7 @@ class ExperiencesController extends AppController {
 	public function error() {
 		$data = $this->Session->read('error_request');
 		$result = $this->Session->read('error_result');
-		
+
 		$this->set('data', $data);
 		$this->set('result', $result);
 	}
@@ -39,8 +39,30 @@ class ExperiencesController extends AppController {
 		$this->ensureSuccess($result, 'students');
 	}
 
+
+	public function students_edit($id) {
+		$api = $this->getRestClient('/api/jobseeker/v1/experiences/', 'students');
+
+		if ($this->request->is(array('post', 'put'))) {
+
+			// save post
+			$data = $this->request->data;
+
+			$result = $api->put('/' . $id, $data);
+			$this->ensureSuccess($result, 'students');
+
+		} else {
+			$result = $api->get('/' . $id);
+			$this->ensureSuccess($result, 'students');
+
+			$this->request->data = $result->decode_response();
+		}
+
+		$this->render('form');
+	}
+
 	public function trusted_index() {
-		
+
 	}
 
 	public function trusted_student() {
@@ -66,8 +88,6 @@ class ExperiencesController extends AppController {
 		$this->set('result', $result);
 
 		$this->ensureSuccess($result, 'trusted');
-
-		$this->render('detail');
 	}
 
 	public function trusted_add() {
